@@ -1,1 +1,20 @@
-
+body {
+    font-family: monospace;
+    background-color: #e0f7fa;
+    color: #00695c;
+    margin: 0;
+    padding: 0;
+}
+#game-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #00695c;
+    border-radius: 10px;
+}
+#text-area { min-height: 150px; margin-bottom: 20px; white-space: pre-wrap; }
+#menu-buttons button { margin: 5px; padding: 10px 20px; font-size: 16px; }
+#battle-area { display: none; border-top: 2px solid #00695c; margin-top: 20px; padding-top: 10px; }
+#battle-log { max-height: 100px; overflow-y: auto; margin-top: 10px; border-top: 1px solid #00695c; padding-top: 5px; }
+.hp-bar { font-family: monospace; font-weight: bold; }
